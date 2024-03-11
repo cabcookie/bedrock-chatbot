@@ -1,0 +1,15 @@
+{
+  "repository": "GITHUB_OWNER/REPO",
+  "environments": {
+    "production": {
+      "account": "PRODUCTION_AWS_ACCOUNT_ID",
+      "region": "PRODUCTION_AWS_REGION",
+      "branch": "main"
+    },
+    "staging": {
+      "account": "STAGING_AWS_ACCOUNT_ID",
+      "region": "STAGING_AWS_REGION",
+      "branch": "staging"
+    }
+  }
+}
